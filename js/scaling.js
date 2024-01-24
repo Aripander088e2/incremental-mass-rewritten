@@ -92,12 +92,12 @@ const SCALE_START = {
 
 const SCALE_POWER= {
     super: {
-		rank: 1.5,
-		tier: 1.5,
+		rank: 1.25,
+		tier: 1.25,
 		tetr: 2,
 		pent: 2,
 		hex: 2.5,
-		massUpg: 2.5,
+		massUpg: 1.55,
 		tickspeed: 2,
 		bh_condenser: 2,
 		gamma_ray: 2,
@@ -119,12 +119,12 @@ const SCALE_POWER= {
 		gal_prestige: 2,
     },
 	hyper: {
-		rank: 2.5,
-		tier: 2.5,
+		rank: 1.45,
+		tier: 1.45,
 		tetr: 3,
 		pent: 3,
 		hex: 3.5,
-		massUpg: 5,
+		massUpg: 2.5,
 		tickspeed: 4,
 		bh_condenser: 2,
 		gamma_ray: 4,
@@ -139,8 +139,8 @@ const SCALE_POWER= {
 		FSS: 3,
 	},
 	ultra: {
-		rank: 4,
-		tier: 4,
+		rank: 2,
+		tier: 2,
 		tetr: 6,
 		pent: 6,
 		hex: 8,
@@ -174,7 +174,7 @@ const SCALE_POWER= {
 		supernova: 75,
 	},
 	instant: {
-		rank: 3,
+		rank: 2.3,
 		fvm: 10,
 	},
 	mega: {
