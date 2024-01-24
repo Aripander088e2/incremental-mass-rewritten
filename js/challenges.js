@@ -181,9 +181,9 @@ const CHALS = {
     getScaleName(i) {
         let c = player.chal.comps[i]
         if (i < 16) {
-            if (c.gte(i==13?10:1000)) return " Impossible"
-            if (c.gte(i==13?5:i==8?200:i>8&&i!=13&&i!=16?50:300)) return " Insane"
-            if (c.gte(i==13?2:i>8&&i!=13&&i!=16?10:75)) return " Hardened"
+            if (c.gte(i==13?10:3000)) return " Impossible"
+            if (c.gte(i==13?5:i==8?200:i>8&&i!=13&&i!=16?50:750)) return " Insane"
+            if (c.gte(i==13?2:i>8&&i!=13&&i!=16?10:400)) return " Hardened"
         } else if (i == 16) {
             if (c.gte(500)) return " Hardened"
         } else {
