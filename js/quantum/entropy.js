@@ -83,9 +83,9 @@ const ENTROPY = {
             title: "Entropic Evaporation",
 
             start: E(100),
-            inc: E(4.5),
+            inc: E(4.25),
 
-            scale: {s: 20, p: 1.12},
+            scale: {s: 20, p: 1.02},
 
             eff(i) {
                 let b = 3
@@ -136,7 +136,7 @@ const ENTROPY = {
             start: E(1e6),
             inc: E(15),
 
-            scale: {s: 5, p: 2.5},
+            scale: {s: 15, p: 2.5},
 
             eff(i) {
                 let x = player.qu.en.amt.add(1).log10().mul(2).add(1).pow(i.pow(0.8))
