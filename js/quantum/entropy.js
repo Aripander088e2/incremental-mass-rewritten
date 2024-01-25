@@ -71,7 +71,7 @@ const ENTROPY = {
             title: "Entropic Accelerator",
 
             start: E(100),
-            inc: E(6),
+            inc: E(4.5),
 
             eff(i) {
                 if (tmp.c16active) return E(1)
@@ -83,9 +83,9 @@ const ENTROPY = {
             title: "Entropic Evaporation",
 
             start: E(100),
-            inc: E(6),
+            inc: E(4.5),
 
-            scale: {s: 10, p: 2},
+            scale: {s: 20, p: 1.12},
 
             eff(i) {
                 let b = 3
@@ -134,7 +134,7 @@ const ENTROPY = {
             title: "Entropic Condenser",
 
             start: E(1e6),
-            inc: E(100),
+            inc: E(15),
 
             scale: {s: 5, p: 2.5},
 
