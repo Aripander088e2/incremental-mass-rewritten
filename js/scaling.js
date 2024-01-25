@@ -92,9 +92,9 @@ const SCALE_START = {
 
 const SCALE_POWER= {
     super: {
-		rank: 1.25,
-		tier: 1.25,
-		tetr: 2,
+		rank: 1.125,
+		tier: 1.125,
+		tetr: 1.5,
 		pent: 2,
 		hex: 2.5,
 		massUpg: 1.55,
@@ -119,9 +119,9 @@ const SCALE_POWER= {
 		gal_prestige: 2,
     },
 	hyper: {
-		rank: 1.45,
-		tier: 1.45,
-		tetr: 3,
+		rank: 1.145,
+		tier: 1.145,
+		tetr: 2,
 		pent: 3,
 		hex: 3.5,
 		massUpg: 2.5,
@@ -139,9 +139,9 @@ const SCALE_POWER= {
 		FSS: 3,
 	},
 	ultra: {
-		rank: 2,
-		tier: 2,
-		tetr: 6,
+		rank: 1.2,
+		tier: 1.2,
+		tetr: 3,
 		pent: 6,
 		hex: 8,
 		massUpg: 10,
